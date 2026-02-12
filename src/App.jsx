@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-    <div>wow</div>
+      <div className='bg-amber-600'>wow</div>
     </>
   )
 }
