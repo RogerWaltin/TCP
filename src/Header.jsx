@@ -1,8 +1,8 @@
 function Header() {
     return (
-        <>
-        wow this is nice
-        </>
+        <div>
+            wow
+        </div>
     )
 }
 
