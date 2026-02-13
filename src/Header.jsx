@@ -1,7 +1,7 @@
 function Header() {
     return (
         <>
-        wow
+        wow this is nice
         </>
     )
 }
