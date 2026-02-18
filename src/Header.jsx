@@ -8,7 +8,7 @@ function Header() {
     //make the hamburger menus later
 
     const hoverText = "hover:text-[#9c3466] transition duration-300 hover:cursor-pointer"
-    const dropDown = "absolute rounded-lg p-3 mt-10 border-2 shadow-md scale-y-0 group-hover:scale-y-100 origin-top duration-300 delay-100 flex flex-col w-44 gap-2 font-medium"
+    const dropDown = "absolute rounded-lg p-3 mt-10 border-2 shadow-md scale-y-0 group-hover:scale-y-100 origin-top duration-300 delay-100 flex flex-col w-44 gap-2 font-medium bg-white"
     const iconStyles = "hover:text-red-800 transition duration-300 hover:cursor-pointer"
 
     const [hamIsClicked, setHamIsClicked] = useState(false)
