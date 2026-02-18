@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export function Footer() {
+export default function Footer() {
 
 
     return (
