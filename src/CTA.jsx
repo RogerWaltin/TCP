@@ -17,8 +17,8 @@ export default function CTA() {
                 <p>thexpurpose@gmail.com</p>
             </div>
 
-            <div className="border-2 rounded-4xl py-4 px-6">
-                <p>Subscribe Now</p>
+            <div className="border-2 border-white rounded-4xl py-4 px-6 hover:bg-white hover:text-black transition duration-400">
+                <p className="font-bold">Subscribe Now</p>
             </div>
         </div>
     )
