@@ -6,7 +6,7 @@ export default function Footer() {
     return (
         <div>
             <footer>
-                <hr className="my-4 mx-0 text-gray-200" />
+                <hr className="mb-4 mx-0 text-gray-200" />
                 <div id="listdiv" className="mx-35 my-6 flex gap-7 py-10">
                     <ul className="list border-r pr-7 border-gray-300 whitespace-nowrap">
                         <li className="font-bold text-xl">Pages</li>
