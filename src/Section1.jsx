@@ -11,7 +11,7 @@ function Section1() {
                 <img src={whatGospel} alt="what_gospel" className="w-2xs hover:cursor-pointer" />
                 <a href="" className={`${underlineEffect} mt-3 text-2xl font-serif`}>What is the Gospel?</a>
                 <span className="mt-3 hover:text-gray-500 w-max hover:cursor-pointer transition duration-300">Michael Teddy</span>
-                <hr className="mt-4 text-gray-200 mb-4" />
+                <hr className="my-4 text-gray-200" />
 
                 <img src={outDo} alt="outdo" className="w-2xs hover:cursor-pointer" />
                 <a href="" className={`${underlineEffect} mt-3 text-2xl font-serif`}>Outdo One Another</a>
@@ -36,10 +36,10 @@ function Section1() {
                         <span className="text-[0.8rem] text-gray-500">By <span className="text-black font-semibold hover:text-gray-500 transition duration-300 hover:cursor-pointer">Ashok Mohanakumar</span></span>
                     </div>
                     <div className="w-24 h-24 overflow-hidden">
-                        <img src={unshakable} alt="unshakable" className="w-[80%] h-[80%] object-cover"/>
+                        <img src={unshakable} alt="unshakable" className="w-[80%] h-[80%] object-cover" />
                     </div>
                 </div>
-                <hr className="mt-4 text-gray-200 mb-4" />
+                <hr className="my-4 text-gray-200" />
 
                 <div className="flex gap-2">
                     <div className="flex flex-col">
@@ -47,10 +47,10 @@ function Section1() {
                         <span className="text-[0.8rem] text-gray-500">By <span className="text-black font-semibold hover:text-gray-500 transition duration-300 hover:cursor-pointer">Ashok Mohanakumar</span></span>
                     </div>
                     <div className="w-24 h-24 overflow-hidden">
-                        <img src="https://thecrosspurpose.com/wp-content/uploads/2025/08/gold_banner-100x100.png" alt="gold" className="w-[80%] h-[80%] object-cover"/>
+                        <img src="https://thecrosspurpose.com/wp-content/uploads/2025/08/gold_banner-100x100.png" alt="gold" className="w-[80%] h-[80%] object-cover" />
                     </div>
                 </div>
-                <hr className="mt-4 text-gray-200 mb-4" />
+                <hr className="my-4 text-gray-200" />
 
                 <div className="flex gap-2">
                     <div className="flex flex-col">
@@ -58,10 +58,10 @@ function Section1() {
                         <span className="text-[0.8rem] text-gray-500">By <span className="text-black font-semibold hover:text-gray-500 transition duration-300 hover:cursor-pointer">Ashok Mohanakumar</span></span>
                     </div>
                     <div className="w-24 h-24 overflow-hidden">
-                        <img src="https://thecrosspurpose.com/wp-content/uploads/2025/08/ChatGPT-Image-Aug-5-2025-10_22_10-PM-100x100.png" alt="fatherhood" className="w-[80%] h-[80%] object-cover"/>
+                        <img src="https://thecrosspurpose.com/wp-content/uploads/2025/08/ChatGPT-Image-Aug-5-2025-10_22_10-PM-100x100.png" alt="fatherhood" className="w-[80%] h-[80%] object-cover" />
                     </div>
                 </div>
-                <hr className="mt-4 text-gray-200 mb-4" />
+                <hr className="my-4 text-gray-200" />
 
                 <div className="flex gap-2">
                     <div className="flex flex-col">
@@ -69,10 +69,10 @@ function Section1() {
                         <span className="text-[0.8rem] text-gray-500">By <span className="text-black font-semibold hover:text-gray-500 transition duration-300 hover:cursor-pointer">Pankaj</span></span>
                     </div>
                     <div className="w-24 h-24 overflow-hidden">
-                        <img src="https://thecrosspurpose.com/wp-content/uploads/2025/07/strong_linked_chain-100x100.webp" alt="slavery" className="w-[80%] h-[80%] object-cover"/>
+                        <img src="https://thecrosspurpose.com/wp-content/uploads/2025/07/strong_linked_chain-100x100.webp" alt="slavery" className="w-[80%] h-[80%] object-cover" />
                     </div>
                 </div>
-                <hr className="mt-4 text-gray-200 mb-4" />
+                <hr className="my-4 text-gray-200" />
 
                 <div className="flex gap-2">
                     <div className="flex flex-col">
@@ -80,11 +80,11 @@ function Section1() {
                         <span className="text-[0.8rem] text-gray-500">By <span className="text-black font-semibold hover:text-gray-500 transition duration-300 hover:cursor-pointer">Ashok Mohanakumar</span></span>
                     </div>
                     <div className="w-24 h-24 overflow-hidden">
-                        <img src="https://thecrosspurpose.com/wp-content/uploads/2024/12/lamb-5733685_1280.jpg" alt="obedience" className="w-[80%] h-[80%] object-cover"/>
+                        <img src="https://thecrosspurpose.com/wp-content/uploads/2024/12/lamb-5733685_1280.jpg" alt="obedience" className="w-[80%] h-[80%] object-cover" />
                     </div>
                 </div>
             </div>
-
+            
         </div>
     )
 }
