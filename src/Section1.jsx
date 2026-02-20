@@ -2,7 +2,7 @@ import whatGospel from "./assets/what_gospel.jpg";
 import outDo from "./assets/outdo.jpg"
 import unshakable from "./assets/unshakable-ones.jpg"
 
-function SectionOne() {
+function Section1() {
     const underlineEffect = "after:content-[''] after:w-0 after:h-0.5 after:bg-black after:absolute relative after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500 w-max hover:cursor-pointer"
 
     return (
@@ -25,7 +25,7 @@ function SectionOne() {
                     <span className="text-[0.8rem] text-gray-500">By <span className="text-black font-semibold hover:text-gray-500 transition duration-300 hover:cursor-pointer">Ashok Mohanakumar</span></span>
 
                 </div>
-                <span className={`${underlineEffect} text-lg font-serif mt-2`}>The Unshakable Ones of Zion</span>
+                <span className={`${underlineEffect} text-xl font-serif mt-2`}>The Unshakable Ones of Zion</span>
                 <p className="text-md font-serif mt-2">Gold appears frequently in the Bible, from the rivers of Eden to the gifts of the Magi. The use of gold is often symbolic of something of high value or honor. The Bible recounts that gold was a gift given to Christ at his birth. This act emphasizes that gold is a fitting tribute for …</p>
             </div>
 
@@ -89,4 +89,4 @@ function SectionOne() {
     )
 }
 
-export default SectionOne
+export default Section1
