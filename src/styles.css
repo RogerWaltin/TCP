@@ -1,1 +1,30 @@
 @import "tailwindcss";
+
+.underlineGroup {
+    display: inline-block;
+    width: max-content;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    cursor: pointer;
+}
+
+.underlineEffect {
+    position: relative;
+    width: max-content;
+}
+
+.underlineEffect::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.5s ease;
+}
+
+.underlineGroup:hover .underlineEffect::after {
+    width: 100%;
+}
