@@ -98,7 +98,7 @@ export default function Section3() {
             <div id="newsletter" className="ml-5.5">
                 <p className="text-lg font-serif">Stay Connected</p>
                 <div className="border-7 w-70 border-gray-300 flex flex-col items-center text-center gap-3 wrap-break-word min-w-0 mt-3">
-                    <img src={mail} alt="" className="w-30"/>
+                    <img src={mail} alt="" className="w-30" />
                     <p className="text-3xl font-serif">The REDHILL Newsletter</p>
                     <p className="mb-10 font-serif mx-2">Subscribe to us and get the Redemption Hill Church Newsletter every month.</p>
                 </div>
@@ -106,8 +106,3 @@ export default function Section3() {
         </div>
     )
 }
-
-
-/*for section2: <div className="mx-32 bg-red-900 w-74">
-                    <div className="w-69.5 bg-red-400">wow</div>
-                </div> */
