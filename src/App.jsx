@@ -1,6 +1,7 @@
-import Footer from './Footer'
+import Footer from './footer'
 import Header from './Header'
-import SectionOne from './SectionOne'
+import Section1 from './Section1'
+import Section3 from './Section3'
 import CTA from './CTA'
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
   return (
     <>
       <Header />
-      <SectionOne />
+      <Section1 />
+      <Section3 />
       <CTA />
       <Footer />
     </>

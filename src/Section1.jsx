@@ -2,7 +2,7 @@ import whatGospel from "./assets/what_gospel.jpg";
 import outDo from "./assets/outdo.jpg"
 import unshakable from "./assets/unshakable-ones.jpg"
 
-function SectionOne() {
+function Section1() {
     const underlineEffect = "after:content-[''] after:w-0 after:h-0.5 after:bg-black after:absolute relative after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500 w-max hover:cursor-pointer"
 
     return (
@@ -11,7 +11,7 @@ function SectionOne() {
                 <img src={whatGospel} alt="what_gospel" className="w-2xs hover:cursor-pointer" />
                 <a href="" className={`${underlineEffect} mt-3 text-2xl font-serif`}>What is the Gospel?</a>
                 <span className="mt-3 hover:text-gray-500 w-max hover:cursor-pointer transition duration-300">Michael Teddy</span>
-                <hr className="mt-4 text-gray-200 mb-4" />
+                <hr className="my-4 text-gray-200" />
 
                 <img src={outDo} alt="outdo" className="w-2xs hover:cursor-pointer" />
                 <a href="" className={`${underlineEffect} mt-3 text-2xl font-serif`}>Outdo One Another</a>
@@ -25,7 +25,7 @@ function SectionOne() {
                     <span className="text-[0.8rem] text-gray-500">By <span className="text-black font-semibold hover:text-gray-500 transition duration-300 hover:cursor-pointer">Ashok Mohanakumar</span></span>
 
                 </div>
-                <span className={`${underlineEffect} text-lg font-serif mt-2`}>The Unshakable Ones of Zion</span>
+                <span className={`${underlineEffect} text-xl font-serif mt-2`}>The Unshakable Ones of Zion</span>
                 <p className="text-md font-serif mt-2">Gold appears frequently in the Bible, from the rivers of Eden to the gifts of the Magi. The use of gold is often symbolic of something of high value or honor. The Bible recounts that gold was a gift given to Christ at his birth. This act emphasizes that gold is a fitting tribute for …</p>
             </div>
 
@@ -36,10 +36,10 @@ function SectionOne() {
                         <span className="text-[0.8rem] text-gray-500">By <span className="text-black font-semibold hover:text-gray-500 transition duration-300 hover:cursor-pointer">Ashok Mohanakumar</span></span>
                     </div>
                     <div className="w-24 h-24 overflow-hidden">
-                        <img src={unshakable} alt="unshakable" className="w-[80%] h-[80%] object-cover"/>
+                        <img src={unshakable} alt="unshakable" className="w-[80%] h-[80%] object-cover" />
                     </div>
                 </div>
-                <hr className="mt-4 text-gray-200 mb-4" />
+                <hr className="my-4 text-gray-200" />
 
                 <div className="flex gap-2">
                     <div className="flex flex-col">
@@ -47,10 +47,10 @@ function SectionOne() {
                         <span className="text-[0.8rem] text-gray-500">By <span className="text-black font-semibold hover:text-gray-500 transition duration-300 hover:cursor-pointer">Ashok Mohanakumar</span></span>
                     </div>
                     <div className="w-24 h-24 overflow-hidden">
-                        <img src="https://thecrosspurpose.com/wp-content/uploads/2025/08/gold_banner-100x100.png" alt="gold" className="w-[80%] h-[80%] object-cover"/>
+                        <img src="https://thecrosspurpose.com/wp-content/uploads/2025/08/gold_banner-100x100.png" alt="gold" className="w-[80%] h-[80%] object-cover" />
                     </div>
                 </div>
-                <hr className="mt-4 text-gray-200 mb-4" />
+                <hr className="my-4 text-gray-200" />
 
                 <div className="flex gap-2">
                     <div className="flex flex-col">
@@ -58,10 +58,10 @@ function SectionOne() {
                         <span className="text-[0.8rem] text-gray-500">By <span className="text-black font-semibold hover:text-gray-500 transition duration-300 hover:cursor-pointer">Ashok Mohanakumar</span></span>
                     </div>
                     <div className="w-24 h-24 overflow-hidden">
-                        <img src="https://thecrosspurpose.com/wp-content/uploads/2025/08/ChatGPT-Image-Aug-5-2025-10_22_10-PM-100x100.png" alt="fatherhood" className="w-[80%] h-[80%] object-cover"/>
+                        <img src="https://thecrosspurpose.com/wp-content/uploads/2025/08/ChatGPT-Image-Aug-5-2025-10_22_10-PM-100x100.png" alt="fatherhood" className="w-[80%] h-[80%] object-cover" />
                     </div>
                 </div>
-                <hr className="mt-4 text-gray-200 mb-4" />
+                <hr className="my-4 text-gray-200" />
 
                 <div className="flex gap-2">
                     <div className="flex flex-col">
@@ -69,10 +69,10 @@ function SectionOne() {
                         <span className="text-[0.8rem] text-gray-500">By <span className="text-black font-semibold hover:text-gray-500 transition duration-300 hover:cursor-pointer">Pankaj</span></span>
                     </div>
                     <div className="w-24 h-24 overflow-hidden">
-                        <img src="https://thecrosspurpose.com/wp-content/uploads/2025/07/strong_linked_chain-100x100.webp" alt="slavery" className="w-[80%] h-[80%] object-cover"/>
+                        <img src="https://thecrosspurpose.com/wp-content/uploads/2025/07/strong_linked_chain-100x100.webp" alt="slavery" className="w-[80%] h-[80%] object-cover" />
                     </div>
                 </div>
-                <hr className="mt-4 text-gray-200 mb-4" />
+                <hr className="my-4 text-gray-200" />
 
                 <div className="flex gap-2">
                     <div className="flex flex-col">
@@ -80,13 +80,13 @@ function SectionOne() {
                         <span className="text-[0.8rem] text-gray-500">By <span className="text-black font-semibold hover:text-gray-500 transition duration-300 hover:cursor-pointer">Ashok Mohanakumar</span></span>
                     </div>
                     <div className="w-24 h-24 overflow-hidden">
-                        <img src="https://thecrosspurpose.com/wp-content/uploads/2024/12/lamb-5733685_1280.jpg" alt="obedience" className="w-[80%] h-[80%] object-cover"/>
+                        <img src="https://thecrosspurpose.com/wp-content/uploads/2024/12/lamb-5733685_1280.jpg" alt="obedience" className="w-[80%] h-[80%] object-cover" />
                     </div>
                 </div>
             </div>
-
+            
         </div>
     )
 }
 
-export default SectionOne
+export default Section1
