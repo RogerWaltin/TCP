@@ -1,4 +1,4 @@
-import "./underlineEffect.css"
+
 
 export default function Section2() {
     return (
@@ -10,7 +10,7 @@ export default function Section2() {
                         <span className="w-full h-41 wrap-break-word">
                             <img src="https://thecrosspurpose.com/wp-content/uploads/2022/05/milada-vigerova-iQWvVYMtv1k-unsplash-441x300.jpg" alt="" className="hover:cursor-pointer w-full h-full" />
                         </span>
-                        <p className="font-serif text-xl underlineEffect">What shall I render to the Lord?</p>
+                        <p className="font-serif text-xl ">What shall I render to the Lord?</p>
                         <p className="text-sm text-gray-600 font-serif text-justify leading-5.5">What shall I render to the Lord for all His benefits to me? I will lift up the cup of salvation and call on the name of the Lord,”</p>
                         <span className="text-[0.9rem] text-gray-500">By <span className="text-black font-semibold hover:text-gray-500 transition duration-300 hover:cursor-pointer">Ashok Mohanakumar</span></span>
                     </div>
@@ -20,7 +20,7 @@ export default function Section2() {
                         <span className="w-full h-41 wrap-break-word">
                             <img src="https://thecrosspurpose.com/wp-content/uploads/2022/05/hermes-rivera-_rNVw54xZZg-unsplash-450x300.jpg" alt="" className="hover:cursor-pointer w-full h-full" />
                         </span>
-                        <p className="font-serif text-xl underlineEffect">A little theology to help wrestle anxiety</p>
+                        <p className="font-serif text-xl ">A little theology to help wrestle anxiety</p>
                         <p className="text-sm text-gray-600 font-serif text-justify leading-5.5">Here's a follow-up article to 'On Wrestling Anxiety' by Michael, with a few theological pointers on how we can wrestle anxiety.</p>
                         <span className="text-[0.9rem] text-gray-500">By <span className="text-black font-semibold hover:text-gray-500 transition duration-300 hover:cursor-pointer">Michael Teddy</span></span>
                     </div>
@@ -30,7 +30,7 @@ export default function Section2() {
                         <span className="w-full h-41 wrap-break-word">
                             <img src="https://thecrosspurpose.com/wp-content/uploads/2022/05/sammie-chaffin-Zdf3zn5XXtU-unsplash-415x300.jpg" alt="" className="hover:cursor-pointer w-full h-full" />
                         </span>
-                        <p className="font-serif text-xl underlineEffect">Risking God's glory for the sake of His glory</p>
+                        <p className="font-serif text-xl ">Risking God's glory for the sake of His glory</p>
                         <p className="text-sm text-gray-600 font-serif text-justify leading-5.5">It is undeniably easier to be Christian outside our homes. The effort it takes, the humility it calls for and the love that is needed, to be the light inside of our homes, cannot be faked. For...</p>
                         <span className="text-[0.9rem] text-gray-500">By <span className="text-black font-semibold hover:text-gray-500 transition duration-300 hover:cursor-pointer">Michael Teddy</span></span>
                     </div>
@@ -40,7 +40,7 @@ export default function Section2() {
                         <span className="w-full h-41 wrap-break-word">
                             <img src="https://thecrosspurpose.com/wp-content/uploads/2022/05/allef-vinicius-fJTqyZMOh18-unsplash-450x300.jpg" alt="" className="hover:cursor-pointer w-full h-full" />
                         </span>
-                        <p className="font-serif text-xl underlineEffect">Does God want us to prosper?</p>
+                        <p className="font-serif text-xl ">Does God want us to prosper?</p>
                         <p className="text-sm text-gray-600 font-serif text-justify leading-5.5">The hope of prosperity, or rather the reality of it, is that we can prosper even in the slums of India and be a mighty instrument for His glory all the days of our lives, and we'd have </p>
                         <span className="text-[0.9rem] text-gray-500">By <span className="text-black font-semibold hover:text-gray-500 transition duration-300 hover:cursor-pointer">Michael Teddy</span></span>
                     </div>
