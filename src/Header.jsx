@@ -64,7 +64,7 @@ function Header() {
                 </div>
                 <a href="#" className="w-lg -mt-10 ml-70"><img src={tcp_logo} alt="tcp_logo" className=" " /></a>
                 <span className="ml-20 text-gray-500 border-gray-500 border pl-3 -mt-2 pr-3 pt-2 mb-4 cursor-pointer" onClick={handleCartClick}>₹0.00 🛒</span>
-                <UserCircleIcon className="h-6 w-6 text-gray-500" />
+                <UserCircleIcon className="h-6 w-6 text-gray-500 cursor-pointer" />
             </div>
             <div id="links-container" className="flex gap-8 justify-center mt-6 font-semibold text-sm tracking-widest ">
                 <div className="text-[#9c3466] cursor-pointer"><a href="#">HOME</a></div>
