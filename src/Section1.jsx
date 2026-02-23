@@ -1,6 +1,8 @@
 import whatGospel from "./assets/what_gospel.jpg";
 import outDo from "./assets/outdo.jpg"
 import unshakable from "./assets/unshakable-ones.jpg"
+import { underlineEffect1, underlineEffect2, underlineEffect3 } from "./underlineEffects";
+
 
 function Section1() {
     const underlineEffect = "after:content-[''] after:w-0 after:h-0.5 after:bg-black after:absolute relative after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500 w-max cursor-pointer"
@@ -30,57 +32,57 @@ function Section1() {
             </div>
 
             <div id="right-side" className="flex flex-col">
-                <div className="flex gap-2">
-                    <div className="flex flex-col">
-                        <a href="" className={`${underlineEffect} text-lg font-serif min-w-0 max-w-50 font-semibold`}>The Unshakable Ones of Zion</a>
+                <div className="flex gap-4">
+                    <div className="shrink-0 flex flex-col">
+                        <a href="" className={`group text-lg font-serif min-w-0 max-w-60 font-semibold`}><span className={underlineEffect1}>The Unshakable</span><br /><span className={underlineEffect2}>Ones of Zion</span></a>
                         <span className="text-[0.8rem] text-gray-500">By <span className="text-black font-semibold hover:text-gray-500 transition duration-300 cursor-pointer">Ashok Mohanakumar</span></span>
                     </div>
-                    <div className="w-24 h-24 overflow-hidden">
-                        <img src={unshakable} alt="unshakable" className="w-[80%] h-[80%] object-cover" />
+                    <div className="w-24 h-24 overflow-hidden ml-auto">
+                        <img src={unshakable} alt="unshakable" className="w-[80%] h-[80%] object-cover ml-auto" />
                     </div>
                 </div>
                 <hr className="my-4 text-gray-200" />
 
-                <div className="flex gap-2">
-                    <div className="flex flex-col">
-                        <a href="" className={`${underlineEffect} text-lg font-serif min-w-0 max-w-50 font-semibold`}>A Biblical Theology of Gold and Glory</a>
+                <div className="flex">
+                    <div className="flex flex-col shrink-0">
+                        <a href="" className={`group text-lg font-serif min-w-0 max-w-50 font-semibold`}><span className={underlineEffect1}>A Biblical</span><br /><span className={underlineEffect2}>Theology of Gold</span><br /><span className={underlineEffect3}>and Glory</span></a>
                         <span className="text-[0.8rem] text-gray-500">By <span className="text-black font-semibold hover:text-gray-500 transition duration-300 cursor-pointer">Ashok Mohanakumar</span></span>
                     </div>
-                    <div className="w-24 h-24 overflow-hidden">
-                        <img src="https://thecrosspurpose.com/wp-content/uploads/2025/08/gold_banner-100x100.png" alt="gold" className="w-[80%] h-[80%] object-cover" />
+                    <div className="w-24 h-24 overflow-hidden ml-auto">
+                        <img src="https://thecrosspurpose.com/wp-content/uploads/2025/08/gold_banner-100x100.png" alt="gold" className="w-[80%] h-[80%] object-cover ml-auto" />
                     </div>
                 </div>
                 <hr className="my-4 text-gray-200" />
 
-                <div className="flex gap-2">
-                    <div className="flex flex-col">
-                        <a href="" className={`${underlineEffect} text-lg font-serif min-w-0 max-w-50 font-semibold`}>Fatherhood And The Imitation of God</a>
+                <div className="flex">
+                    <div className="flex flex-col shrink-0">
+                        <a href="" className={`group text-lg font-serif min-w-0 max-w-50 font-semibold`}><span className={underlineEffect1}>Fatherhood And</span><br /><span className={underlineEffect2}>The Imitation of</span><br /><span className={underlineEffect3}>God</span></a>
                         <span className="text-[0.8rem] text-gray-500">By <span className="text-black font-semibold hover:text-gray-500 transition duration-300 cursor-pointer">Ashok Mohanakumar</span></span>
                     </div>
-                    <div className="w-24 h-24 overflow-hidden">
-                        <img src="https://thecrosspurpose.com/wp-content/uploads/2025/08/ChatGPT-Image-Aug-5-2025-10_22_10-PM-100x100.png" alt="fatherhood" className="w-[80%] h-[80%] object-cover" />
+                    <div className="w-24 h-24 overflow-hidden ml-auto">
+                        <img src="https://thecrosspurpose.com/wp-content/uploads/2025/08/ChatGPT-Image-Aug-5-2025-10_22_10-PM-100x100.png" alt="fatherhood" className="w-[80%] h-[80%] object-cover ml-auto" />
                     </div>
                 </div>
                 <hr className="my-4 text-gray-200" />
 
-                <div className="flex gap-2">
+                <div className="flex">
                     <div className="flex flex-col">
-                        <a href="" className={`${underlineEffect} text-lg font-serif min-w-0 max-w-50 font-semibold`}>No Slavery to Christ, No Heaven!</a>
+                        <a href="" className={`group text-lg font-serif min-w-0 max-w-50 font-semibold`}><span className={underlineEffect1}>No Slavery to</span><br /><span className={underlineEffect2}>Christ, No</span><br /><span className={underlineEffect3}>Heaven!</span></a>
                         <span className="text-[0.8rem] text-gray-500">By <span className="text-black font-semibold hover:text-gray-500 transition duration-300 cursor-pointer">Pankaj</span></span>
                     </div>
-                    <div className="w-24 h-24 overflow-hidden">
-                        <img src="https://thecrosspurpose.com/wp-content/uploads/2025/07/strong_linked_chain-100x100.webp" alt="slavery" className="w-[80%] h-[80%] object-cover" />
+                    <div className="w-24 h-24 overflow-hidden ml-auto">
+                        <img src="https://thecrosspurpose.com/wp-content/uploads/2025/07/strong_linked_chain-100x100.webp" alt="slavery" className="w-[80%] h-[80%] object-cover ml-auto" />
                     </div>
                 </div>
                 <hr className="my-4 text-gray-200" />
 
-                <div className="flex gap-2">
+                <div className="flex">
                     <div className="flex flex-col">
-                        <a href="" className={`${underlineEffect} text-lg font-serif min-w-0 max-w-50 font-semibold`}>Obedience is better than Sacrifice</a>
+                        <a href="" className={`group text-lg font-serif min-w-0 max-w-50 font-semibold`}><span className={underlineEffect1}>Obedience is</span><br /><span className={underlineEffect2}>better than</span><br /><span className={underlineEffect3}>Sacrifice</span></a>
                         <span className="text-[0.8rem] text-gray-500">By <span className="text-black font-semibold hover:text-gray-500 transition duration-300 cursor-pointer">Ashok Mohanakumar</span></span>
                     </div>
-                    <div className="w-24 h-24 overflow-hidden">
-                        <img src="https://thecrosspurpose.com/wp-content/uploads/2024/12/lamb-5733685_1280.jpg" alt="obedience" className="w-[80%] h-[80%] object-cover" />
+                    <div className="w-24 h-24 overflow-hidden ml-auto">
+                        <img src="https://thecrosspurpose.com/wp-content/uploads/2024/12/lamb-5733685_1280.jpg" alt="obedience" className="w-[80%] h-[80%] object-cover ml-auto" />
                     </div>
                 </div>
             </div>

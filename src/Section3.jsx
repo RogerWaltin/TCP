@@ -1,5 +1,6 @@
 import { FaArrowRight, FaRegClock } from "react-icons/fa"
 import mail from "./assets/mail_logo.png"
+import { underlineEffect1, underlineEffect2 } from "./underlineEffects"
 
 export default function Section3() {
     const underlineEffect = "after:content-[''] after:w-0 after:h-0.5 after:bg-black after:absolute relative after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500 w-max cursor-pointer"
@@ -10,22 +11,22 @@ export default function Section3() {
                 <p className="font-semibold text-lg mt-2.75">WRITERS</p>
                 <div id="Mike" className="border-t border-gray-300 mt-[14.7px] flex gap-3">
                     <span className="shrink-0 overflow-hidden w-15 h-15 rounded-full border-3 border-[#a84d79] ml-1.5 mt-[9.4px]"><img src="https://thecrosspurpose.com/wp-content/uploads/2024/12/Screenshot-2024-12-04-010939-96x96.png" alt="" /></span>
-                    <p className={`text-2xl font-serif mt-4.25 cursor-pointer ${underlineEffect}`}>Who is Michael Teddy?</p>
+                    <p className={`text-2xl font-serif mt-4.25 cursor-pointer group`}><span className={underlineEffect1}>Who is Michael</span><br /><span className={underlineEffect2}>Teddy?</span></p>
                 </div>
 
                 <div id="Benji" className="border-t border-gray-300 mt-[14.7px] flex gap-3">
                     <span className="shrink-0 overflow-hidden w-15 h-15 rounded-full border-3 border-[#a84d79] ml-1.5 mt-[9.4px]"><img src="https://secure.gravatar.com/avatar/cc49c4447f5967c079434bedb19779966db1c03bd72280e5b8b53f1f6b0c8e21?s=96&d=mm&r=g" alt="" /></span>
-                    <p className={`text-2xl font-serif mt-4.25 cursor-pointer ${underlineEffect}`}>Who is Benjamin Abraham?</p>
+                    <p className={`text-2xl font-serif mt-4.25 cursor-pointer group`}><span className={underlineEffect1}>Who is Benjamin</span><br /><span className={underlineEffect2}>Abraham?</span></p>
                 </div>
 
                 <div id="Ashok" className="border-t border-gray-300 mt-[14.7px] flex gap-3">
                     <span className="shrink-0 overflow-hidden w-15 h-15 rounded-full border-3 border-[#a84d79] ml-1.5 mt-[9.4px]"><img src="https://thecrosspurpose.com/wp-content/uploads/2024/12/ashok-96x96.jpg" alt="" /></span>
-                    <p className={`text-2xl font-serif mt-4.25 cursor-pointer ${underlineEffect}`}>Who is Ashok Mohanakumar?</p>
+                    <p className={`text-2xl font-serif mt-4.25 cursor-pointer group`}><span className={underlineEffect1}>Who is Ashok</span><br /><span className={underlineEffect2}>Mohanakumar?</span></p>
                 </div>
 
                 <div id="Steve" className="border-t border-gray-300 mt-[14.7px] flex gap-3">
                     <span className="shrink-0 overflow-hidden w-15 h-15 rounded-full border-3 border-[#a84d79] ml-1.5 mt-[9.4px]"><img src="https://secure.gravatar.com/avatar/0d1db6c28f0ce06aabee7a77912459cf5554b86287637e705f56b682d8ef18ca?s=96&d=mm&r=g" alt="" /></span>
-                    <p className={`text-2xl font-serif mt-4.25 cursor-pointer ${underlineEffect}`}>Who is Steve Waltin?</p>
+                    <p className={`text-2xl font-serif mt-4.25 cursor-pointer group`}><span className={underlineEffect1}>Who is Steve</span><br /><span className={underlineEffect2}>Waltin?</span></p>
                 </div>
             </div>
 
