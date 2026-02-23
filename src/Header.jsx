@@ -18,7 +18,7 @@ function Header() {
     }
 
     return (
-        <div>
+        <nav>
             <div id="top-container" className="mt-12 ml-30 flex gap-6">
                 <div id="icon-container" className="flex gap-5">
                     {hamIsClicked ? <FaTimes size={20} className={iconStyles} onClick={handleMenuClick} /> : <FaBars size={20} className={iconStyles} onClick={handleMenuClick} />}
@@ -55,7 +55,7 @@ function Header() {
                 <div className={hoverText}><a href="#">BOOKSTORE</a></div>
             </div>
             <hr className="mt-10 text-gray-200" />
-        </div>
+        </nav>
     )
 }
 
