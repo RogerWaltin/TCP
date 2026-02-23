@@ -6,6 +6,7 @@ import Section4 from './Section4'
 import Section5 from './Section5'
 import CTA from './CTA'
 import Footer from './footer'
+import ScrollToTopButton from './ScrollButton'
 
 
 
@@ -15,6 +16,7 @@ function App() {
   return (
     <>
       <Header />
+      <ScrollToTopButton />
       <Section1 />
       <Section2 />
       <Section3 />
