@@ -1,4 +1,4 @@
-import { FaBars, FaSearch, FaTimes } from "react-icons/fa";
+import { FaBars, FaRegTimesCircle, FaSearch, FaTimes } from "react-icons/fa";
 import { UserCircleIcon } from '@heroicons/react/24/outline'
 import clsx from "clsx";
 import tcp_logo from "./assets/tcp_banner.png";
@@ -24,6 +24,12 @@ function Header() {
                     {hamIsClicked ? <FaTimes size={20} className={iconStyles} onClick={handleMenuClick} /> : <FaBars size={20} className={iconStyles} onClick={handleMenuClick} />}
                     <p className="relative -top-1  h-7 w-px bg-gray-300"></p>
                     <FaSearch size={20} className={iconStyles} />
+                </div>
+                {hamIsClicked && (<div onClick={handleMenuClick} className="fixed inset-0 bg-black/40 z-40"/>)}
+                <div className={`fixed top-0 left-0 h-full w-95 bg-[#9c3466] transform transition-transform duration-300 ease-in-out z-50 ${hamIsClicked ? "translate-x-0" : "-translate-x-full"}`}>
+                    <div className={`mt-10 mx-10`}>
+                        <FaTimes size={30} className={`hover:opacity-70  transition duration-300 hover:cursor-pointer ml-auto text-white`} onClick={handleMenuClick} />
+                    </div>
                 </div>
                 <a href="#" className="w-lg -mt-10 ml-70"><img src={tcp_logo} alt="tcp_logo" className=" " /></a>
                 <span className="ml-20 text-gray-500 border-gray-500 border pl-3 -mt-2 pr-3 pt-2 mb-4 ">₹0.00 🛒</span>
