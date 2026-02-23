@@ -1,7 +1,7 @@
-import { useState } from "react";
+import { FaFacebookF, FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
 
 export default function Footer() {
-
+    const hamIconStyles = "mt-2 border-[#dfdfdf] hover:border-[#9c3466] border rounded-full items-center flex w-fit h-fit p-3 text-[#9c3466] hover:bg-[#9c3466] hover:text-white cursor-pointer transition duration-200"
 
     return (
         <div>
@@ -68,19 +68,20 @@ export default function Footer() {
                             <a href="#" className="hover:text-[#9c3466]">Steve Waltin</a>
                         </li>
                     </ul>
-                    <ul className="list ">
-                        <li className="pt-5"><a href="https://thecrosspurpose.com"><img src="https://thecrosspurpose.com/wp-content/uploads/2022/09/logo-1.png" alt="logo" className="w-lg" /></a></li>
-                        <li className="pt-5">Informing Minds. Reforming Hearts.</li>
-                        <ul className="flex gap-6 mt-12 select-none"> {/*remember to import icons instead later*/}
-                            <li className="group rounded-full border-2 p-2 border-[#9c3466] hover:bg-[#9c3466] transition duration-400"><a href="#"><img className="group-hover:invert filter transition" width="26" height="26" src="https://img.icons8.com/metro/26/facebook-new--v2.png" alt="facebook-new--v2" /></a></li>
-                            <li className="group rounded-full border-2 p-2 border-[#9c3466] hover:bg-[#9c3466] transition duration-400"><a href="#"><img className="group-hover:invert filter transition" width="26" height="26" src="https://img.icons8.com/metro/26/instagram-new.png" alt="instagram-new" /></a></li>
-                            <li className="group rounded-full border-2 p-2 border-[#9c3466] hover:bg-[#9c3466] transition duration-400"><a href="#"><img className="group-hover:invert filter transition" width="26" height="26" src="https://img.icons8.com/glyph-neue/64/youtube-play.png" alt="youtube-play" /></a></li>
-                            <li className="group rounded-full border-2 p-2 border-[#9c3466] hover:bg-[#9c3466] transition duration-400"><a href="#"><img className="group-hover:invert filter transition" width="26" height="26" src="https://img.icons8.com/ios-glyphs/30/twitterx--v2.png" alt="twitterx--v2" /></a></li>
-                        </ul>
-                    </ul>
+                    <div className="list ">
+                        <div className="pt-4"><a href="https://thecrosspurpose.com"><img src="https://thecrosspurpose.com/wp-content/uploads/2022/09/logo-1.png" alt="logo" className="w-lg" /></a></div>
+                        <div className="pt-5 mb-10.5">Informing Minds. Reforming Hearts.</div>
+                        <div id="ham-icon-container" className="flex gap-2">
+                            <span className={hamIconStyles}><FaFacebookF size={18} /></span>
+                            <span className={hamIconStyles}><FaInstagram size={20} /></span>
+                            <span className={hamIconStyles}><FaYoutube size={20} /></span>
+                            <span className={hamIconStyles}><FaTwitter size={20} /></span>
+                        </div>
+                    </div>
                 </div>
-                <hr className="my-4 mx-0 text-gray-200" />
-                <p className="mx-32 my-6 text-[#8e8e8e] font-sans"><span className="hover:text-[#9c3466]">The Cross Purpose</span> © 2022 - All Rights Reserved</p>
+                <div className="border-t border-[#dfdfdf] py-6.5">
+                    <p className="mx-32 text-[#8e8e8e] font-sans"><span className="hover:text-[#9c3466]">The Cross Purpose</span> © 2022 - All Rights Reserved</p>
+                </div>
             </footer>
         </div>
     )

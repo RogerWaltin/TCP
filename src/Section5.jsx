@@ -9,7 +9,7 @@ export default function Section5() {
             <section>
                 <hr className="mt-2 border-2 text-[#9c3466]" />
                 <div className="py-3">
-                    <span className="flex flex-row items-center hover:cursor-pointer hover:text-[#a84d79] transition duration-300 gap-3.5 w-fit"><p className="text-lg font-semibold tracking-wider">PODCASTS</p> <FaArrowRight /></span>
+                    <span className="flex flex-row items-center cursor-pointer hover:text-[#a84d79] transition duration-300 gap-3.5 w-fit"><p className="text-lg font-semibold tracking-wider">PODCASTS</p> <FaArrowRight /></span>
                 </div>
             </section>
             <hr className="mb-8 text-gray-200" />
@@ -70,7 +70,7 @@ export default function Section5() {
                         <img src="https://thecrosspurpose.com/wp-content/uploads/2022/09/UNASHAMED-2-300x44.png" alt="unashamed" />
                     </div>
                     <p className="text-lg mx-5 mt-3 mb-4.5">The Annual Cross Purpose Magazine</p>
-                    <div className="bg-[#9c3466] text-white h-12.5 mx-5 rounded-4xl py-2.5 px-10 border-2 border-[#9c3466] hover:bg-white hover:text-black hover:border-black transition duration-400">
+                    <div className="cursor-pointer bg-[#9c3466] text-white h-12.5 mx-5 rounded-4xl py-2.5 px-10 border-2 border-[#9c3466] hover:bg-white hover:text-black hover:border-black transition duration-400">
                         <p className="font-bold">FREE Digital Copy</p>
                     </div>
                 </div>
