@@ -5,7 +5,7 @@ import { useState } from "react";
 
 function Header() {
     const hoverText = "hover:text-[#9c3466] transition duration-300 cursor-pointer"
-    const dropDown = "absolute rounded-lg p-3 mt-10 border-2 shadow-md scale-y-0 group-hover:scale-y-100 origin-top duration-300 delay-100 flex flex-col w-44 gap-2 font-medium bg-white"
+    const dropDown = "absolute p-5 top-15 border-[0.01rem] border-gray-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible  duration-300 delay-100 flex flex-col w-44 gap-2 font-medium bg-white"
     const iconStyles = "hover:text-red-800 transition duration-300 cursor-pointer"
     const hamHoverText = "hover:text-[#dab3c6] w-fit cursor-pointer transition duration-500 ease-in-out"
     const hamIconStyles = "mt-2 border-[#b5688d] border rounded-full items-center flex w-fit h-fit p-3 hover:bg-white hover:text-[#9c3466] cursor-pointer"
