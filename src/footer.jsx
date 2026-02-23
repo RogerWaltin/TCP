@@ -9,7 +9,7 @@ export default function Footer() {
                 <hr className="mb-4 mx-0 text-gray-200" />
                 <div id="listdiv" className="mx-35 my-6 flex gap-7 py-10">
                     <ul className="list border-r pr-7 border-gray-300 whitespace-nowrap">
-                        <li className="font-bold text-xl">Pages</li>
+                        <li className="font-semibold text-lg uppercase">Pages</li>
                         <hr className="mt-2 w-10 border-2 text-[#9c3466]" />
                         <li className="pt-5">
                             <a href="#" className="hover:text-[#9c3466]">Home</a>
@@ -31,7 +31,7 @@ export default function Footer() {
                         </li>
                     </ul>
                     <ul className="list border-r pr-17 border-gray-300 whitespace-nowrap">
-                        <li className="font-bold text-xl">Other Links</li>
+                        <li className="font-semibold text-lg uppercase">Other Links</li>
                         <hr className="mt-2 w-10 border-2 text-[#9c3466]" />
                         <li className="pt-5">
                             <a href="#" className="hover:text-[#9c3466]">Redemption Hill Church</a>
@@ -53,7 +53,7 @@ export default function Footer() {
                         </li>
                     </ul>
                     <ul className="list border-r pr-21 border-gray-300 whitespace-nowrap">
-                        <li className="font-bold text-xl">Authors</li>
+                        <li className="font-semibold text-lg uppercase">Authors</li>
                         <hr className="mt-2 w-10 border-2 text-[#9c3466]" />
                         <li className="pt-5">
                             <a href="#" className="hover:text-[#9c3466]">Michael Teddy</a>
