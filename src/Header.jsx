@@ -25,7 +25,7 @@ function Header() {
         <nav>
             <div id="top-container" className="mt-12 ml-30 flex gap-6">
                 <div id="icon-container" className="flex gap-5">
-                    {hamIsClicked ? <FaTimes size={20} className={iconStyles} onClick={handleMenuClick} /> : <FaBars size={20} className={iconStyles} onClick={handleMenuClick} />}
+                    {hamIsClicked ? <FaTimes size={20} className={iconStyles}/> : <FaBars size={20} className={iconStyles} onClick={handleMenuClick} />}
                     <p className="relative -top-1  h-7 w-px bg-gray-300"></p>
                     <FaSearch size={20} className={iconStyles} />
                 </div>
