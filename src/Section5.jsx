@@ -16,7 +16,7 @@ export default function Section5() {
             <section className="flex gap-5">
                 <div className="flex border-r pr-5 w-160 border-gray-300 wrap-break-word">
                     <div className="w-160 h-90 overflow-hidden">
-                        <img className="w-full h-full object-cover" src="https://thecrosspurpose.com/wp-content/uploads/2024/08/1-400x300.webp" alt="meet mario" />
+                        <img className="w-full h-full object-cover cursor-pointer" src="https://thecrosspurpose.com/wp-content/uploads/2024/08/1-400x300.webp" alt="meet mario" />
                     </div>
                     <div className="flex-col ml-8 mt-18">
                         <p className="text-xs font-semibold tracking-wider whitespace-break-spaces"><a href="#"><span className="text-[#9c3466] hover:text-gray-500"><span className="text-lg">●</span> FEATURED POST</span></a>     <a href="#"><span className="hover:text-[#9c3466]">PODCAST</span></a>     <a href="#"><span className="hover:text-[#9c3466]">THE SHOW</span></a></p>
