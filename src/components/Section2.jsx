@@ -1,4 +1,4 @@
-import { underlineEffect1, underlineEffect2, underlineEffect3 } from "./underlineEffects";
+import { underlineEffect1, underlineEffect2, underlineEffect3 } from "../data/underlineEffects";
 
 
 export default function Section2() {

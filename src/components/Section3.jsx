@@ -1,6 +1,6 @@
 import { FaArrowRight, FaRegClock } from "react-icons/fa"
-import mail from "./assets/mail_logo.png"
-import { underlineEffect1, underlineEffect2 } from "./underlineEffects"
+import mail from "../assets/mail_logo.png"
+import { underlineEffect1, underlineEffect2 } from "../data/underlineEffects"
 
 export default function Section3() {
     const underlineEffect = "after:content-[''] after:w-0 after:h-0.5 after:bg-black after:absolute relative after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500 w-max cursor-pointer"

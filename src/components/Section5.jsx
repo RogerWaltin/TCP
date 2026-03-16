@@ -1,6 +1,5 @@
 import { FaArrowRight, FaRegArrowAltCircleRight } from "react-icons/fa";
-import meetmario from "./assets/meetmario.jpg"
-import { underlineEffect1, underlineEffect2 } from "./underlineEffects";
+import { underlineEffect1, underlineEffect2 } from "../data/underlineEffects";
 
 export default function Section5() {
 
