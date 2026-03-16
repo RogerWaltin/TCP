@@ -23,7 +23,7 @@ export default function ScrollToTopButton() {
     return (
         <button type="button" onClick={backToTop}
             className={`
-                fixed bottom-10 right-10 p-3 bg-[#9c3466] text-white rounded-full shadow-md transform transition-all duration-500 ease-out
+                hover:cursor-pointer fixed bottom-10 right-10 p-3 bg-[#9c3466] hover:bg-gray-500 text-white rounded-full shadow-md transform transition-all duration-500 ease-out
                 ${showButton ? "opacity-100 translate-y-0 scale-100 pointer-events-auto" : "opacity-0 translate-y-10 scale-90 pointer-events-none"}
             `}
         >
