@@ -1,4 +1,5 @@
 import { FaFacebookF, FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
     const hamIconStyles = "mt-2 border-[#dfdfdf] hover:border-[#9c3466] border rounded-full items-center flex w-fit h-fit p-3 text-[#9c3466] hover:bg-[#9c3466] hover:text-white cursor-pointer transition duration-200"
@@ -12,44 +13,44 @@ export default function Footer() {
                         <li className="font-semibold text-lg uppercase">Pages</li>
                         <hr className="mt-2 w-10 border-2 text-[#9c3466]" />
                         <li className="pt-5">
-                            <a href="#" className="hover:text-[#9c3466]">Home</a>
+                            <Link to="/" className="hover:text-[#9c3466]">Home</Link>
                         </li>
                         <li className="pt-5">
-                            <a href="#" className="hover:text-[#9c3466]">About Us</a>
+                            <Link to="/about" className="hover:text-[#9c3466]">About Us</Link>
                         </li>
                         <li className="pt-5">
-                            <a href="#" className="hover:text-[#9c3466]">Privacy Policy</a>
+                            <Link to="/privacy" className="hover:text-[#9c3466]">Privacy Policy</Link>
                         </li>
                         <li className="pt-5">
-                            <a href="#" className="hover:text-[#9c3466]">Refund & Cancellation Policy</a>
+                            <Link to="/" className="hover:text-[#9c3466]">Refund & Cancellation Policy</Link>
                         </li>
                         <li className="pt-5">
-                            <a href="#" className="hover:text-[#9c3466]">Shipping & Delivery Policy</a>
+                            <Link to="/" className="hover:text-[#9c3466]">Shipping & Delivery Policy</Link>
                         </li>
                         <li className="pt-5">
-                            <a href="#" className="hover:text-[#9c3466]">Terms & Conditions</a>
+                            <Link to="/" className="hover:text-[#9c3466]">Terms & Conditions</Link>
                         </li>
                     </ul>
                     <ul className="list border-r pr-17 border-gray-300 whitespace-nowrap">
                         <li className="font-semibold text-lg uppercase">Other Links</li>
                         <hr className="mt-2 w-10 border-2 text-[#9c3466]" />
                         <li className="pt-5">
-                            <a href="#" className="hover:text-[#9c3466]">Redemption Hill Church</a>
+                            <a href="https://redemptionhill.in/" className="hover:text-[#9c3466]">Redemption Hill Church</a>
                         </li>
                         <li className="pt-5">
-                            <a href="#" className="hover:text-[#9c3466]">Mike's Personal Blog</a>
+                            <a href="https://michaelteddy.substack.com/" className="hover:text-[#9c3466]">Mike's Personal Blog</a>
                         </li>
                         <li className="pt-5">
-                            <a href="#" className="hover:text-[#9c3466]">TCP YouTube Channel</a>
+                            <a href="https://www.youtube.com/channel/UC0dJzLp8fMK7umUIzMzDNMQ" className="hover:text-[#9c3466]">TCP YouTube Channel</a>
                         </li>
                         <li className="pt-5">
-                            <a href="#" className="hover:text-[#9c3466]">For The Truth</a>
+                            <a href="https://forthetruth.in/?v=13b5bfe96f3e" className="hover:text-[#9c3466]">For The Truth</a>
                         </li>
                         <li className="pt-5">
-                            <a href="#" className="hover:text-[#9c3466]">Sola Books</a>
+                            <a href="https://solabooks.in/" className="hover:text-[#9c3466]">Sola Books</a>
                         </li>
                         <li className="pt-5">
-                            <a href="#" className="hover:text-[#9c3466]">Equip Indian Churches</a>
+                            <a href="https://www.equipindianchurches.com/" className="hover:text-[#9c3466]">Equip Indian Churches</a>
                         </li>
                     </ul>
                     <ul className="list border-r pr-21 border-gray-300 whitespace-nowrap">

@@ -1,13 +1,11 @@
-import Header from './Header'
-import Section1 from './Section1'
-import Section2 from './Section2'
-import Section3 from './Section3'
-import Section4 from './Section4'
-import Section5 from './Section5'
-import CTA from './CTA'
-import Footer from './footer'
-import ScrollToTopButton from './ScrollButton'
-
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Header from './components/Header'
+import ScrollToTopButton from './components/ScrollButton'
+import Home from './pages/Home';
+import Services from "./pages/Services";
+import About from "./pages/About";
+import Privacy from "./pages/Privacy";
+import Footer from './components/footer'
 
 
 function App() {
@@ -15,15 +13,17 @@ function App() {
 
   return (
     <>
-      <Header />
-      <ScrollToTopButton />
-      <Section1 />
-      <Section2 />
-      <Section3 />
-      <Section4 />
-      <Section5 />
-      <CTA />
-      <Footer />
+      <BrowserRouter>
+        <Header />
+        <ScrollToTopButton />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/privacy" element={<Privacy />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </>
   )
 }

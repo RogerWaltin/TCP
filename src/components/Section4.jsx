@@ -1,5 +1,5 @@
 import { FaArrowRight, FaRegPlayCircle } from "react-icons/fa";
-import { whiteUnderlineEffect1, whiteUnderlineEffect2, underlineEffect1, underlineEffect2 } from "./underlineEffects";
+import { whiteUnderlineEffect1, whiteUnderlineEffect2, underlineEffect1, underlineEffect2 } from "../data/underlineEffects";
 
 export default function Section4() {
 

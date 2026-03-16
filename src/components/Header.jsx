@@ -1,7 +1,8 @@
-import { FaBars, FaFacebook, FaFacebookF, FaInstagram, FaRegTimesCircle, FaSearch, FaTimes, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaBars, FaFacebookF, FaInstagram, FaSearch, FaTimes, FaTwitter, FaYoutube } from "react-icons/fa";
 import { UserCircleIcon } from '@heroicons/react/24/outline'
-import tcp_logo from "./assets/tcp_banner.png";
+import tcp_logo from "../assets/tcp_banner.png";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
     const hoverText = "hover:text-[#9c3466] transition duration-300 cursor-pointer"
@@ -25,7 +26,7 @@ function Header() {
         <nav>
             <div id="top-container" className="mt-12 ml-30 flex gap-6">
                 <div id="icon-container" className="flex gap-5">
-                    {hamIsClicked ? <FaTimes size={20} className={iconStyles}/> : <FaBars size={20} className={iconStyles} onClick={handleMenuClick} />}
+                    {hamIsClicked ? <FaTimes size={20} className={iconStyles} /> : <FaBars size={20} className={iconStyles} onClick={handleMenuClick} />}
                     <p className="relative -top-1  h-7 w-px bg-gray-300"></p>
                     <FaSearch size={20} className={iconStyles} />
                 </div>
@@ -67,29 +68,29 @@ function Header() {
                 <UserCircleIcon className="h-6 w-6 text-gray-500 cursor-pointer" />
             </div>
             <div id="links-container" className="flex gap-8 justify-center mt-6 font-semibold text-sm tracking-widest ">
-                <div className="text-[#9c3466] cursor-pointer"><a href="#">HOME</a></div>
+                <div className="text-[#9c3466]"><Link to="/">HOME</Link></div>
                 <div className="group relative" >
-                    <a href="#" className={hoverText}>ARTICLES</a>
+                    <Link to="/" className={hoverText}>ARTICLES</Link>
                     <div className={dropDown}>
-                        <a href="#" className={hoverText}>Reviews</a>
+                        <Link to="/" className={hoverText}>Reviews</Link>
                     </div>
                 </div>
                 <div className="group relative" >
-                    <a href="#" className={hoverText}>PODCAST</a>
+                    <Link to="/" className={hoverText}>PODCAST</Link>
                     <div className={dropDown}>
-                        <a href="#" className={hoverText}>The Show</a>
-                        <a href="#" className={hoverText}>Brook Kidron</a>
+                        <Link to="/" className={hoverText}>The Show</Link>
+                        <Link to="/" className={hoverText}>Brook Kidron</Link>
                     </div>
                 </div>
                 <div className="group relative" >
-                    <a href="#" className={hoverText}>VIDEOS</a>
+                    <Link to="/" className={hoverText}>VIDEOS</Link>
                     <div className={dropDown}>
-                        <a href="#" className={hoverText}>What About?</a>
-                        <a href="#" className={hoverText}>Sermons</a>
-                        <a href="#" className={hoverText}>Other</a>
+                        <Link to="/" className={hoverText}>What About?</Link>
+                        <Link to="/" className={hoverText}>Sermons</Link>
+                        <Link to="/" className={hoverText}>Other</Link>
                     </div>
                 </div>
-                <div className={hoverText}><a href="#">BOOKSTORE</a></div>
+                <div className={hoverText}><Link to="/">BOOKSTORE</Link></div>
             </div>
             <hr className="mt-10 text-gray-200" />
         </nav>

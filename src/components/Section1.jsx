@@ -1,7 +1,7 @@
-import whatGospel from "./assets/what_gospel.jpg";
-import outDo from "./assets/outdo.jpg"
-import unshakable from "./assets/unshakable-ones.jpg"
-import { underlineEffect1, underlineEffect2, underlineEffect3 } from "./underlineEffects";
+import whatGospel from "../assets/what_gospel.jpg";
+import outDo from "../assets/outdo.jpg"
+import unshakable from "../assets/unshakable-ones.jpg"
+import { underlineEffect1, underlineEffect2, underlineEffect3 } from "../data/underlineEffects";
 
 
 function Section1() {
